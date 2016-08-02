@@ -1,0 +1,16 @@
+group 'flink-splitstream-test'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.flink:flink-streaming-java_2.10:1.0.3'
+    compile 'org.projectlombok:lombok:1.16.8'
+}
